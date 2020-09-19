@@ -1,0 +1,47 @@
+About the dart files in lib
+
+main.dart: has a stream provider which listens to users login status and passes the value down to the tree.
+
+wrapper.dart:uses the value provided by stream provider in main to determine whether user is logged in or not and then
+                send user to signup or home screen.
+
+************************************
+screens/tabs/
+
+discover-category.dart: This screen shows the all the posts which are related to the certain category
+
+discover.dart:This is the category section where you can choose to see posts related to any of the categories shown.
+
+home.dart:Home Screen 
+
+homestream.dart: This is the stream that shows feed in the home page,
+
+read-post-page.dart: This screen shows the content of post that you choose
+
+webview.dart:Screen for showing external websites in app.
+
+
+
+******************************************************
+screens/
+
+editorcreatepost.dart:Screen to choose whether to create new post or edit the last post created.
+
+post_create.dart: Screen in which you can write content fot the post.
+
+sign_up.dart:Sign up screen on starting of app
+
+uploading-post-screen:loading screen when you submit the post.
+
+search.dart:search screen to search specific posts.
+
+
+**********************************************************
+server-side.dart/
+    firebase-database.dart:all the stuff related to backend is here,sign_up,storing images,storing post data,streams for listening to users login status
+                            ,stream for getting docs ,functions to upload images,sign_up etc
+
+
+                            
+
+
