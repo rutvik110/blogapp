@@ -18,7 +18,7 @@ void main() {
 }
 
 class Myapp extends StatelessWidget {
-   
+   final du = 0;
   @override
   Widget build(BuildContext context) {
     //streamprovider listens to the user stream
